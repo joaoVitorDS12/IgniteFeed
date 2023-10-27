@@ -8,3 +8,13 @@
     gap: 2rem;
     align-items: flex-start; /* Forçando a sidebar ter o mesmo tamanho que esta no template-columns */
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
